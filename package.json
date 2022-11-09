@@ -1,26 +1,23 @@
 {
-    "name": "node-open-mining-portal",
-    "version": "0.0.4",
-    "description": "An extremely efficient, highly scalable, all-in-one, easy to setup cryptocurrency mining pool",
+    "name": "ErgoMiningPool",
+    "version": "0.1.0",
+    "description": "An extremely efficient, highly scalable, all-in-one, easy to setup Ergo mining pool",
     "keywords": [
         "stratum",
         "mining",
         "pool",
         "server",
-        "poolserver",
-        "bitcoin",
-        "litecoin",
-        "scrypt"
+        "poolserver"
     ],
-    "homepage": "https://github.com/zone117x/node-open-mining-portal",
+    "homepage": "https://github.com/reqlez/ErgoMiningPool",
     "bugs": {
-        "url": "https://github.com/zone117x/node-open-mining-portal/issues"
+        "url": "https://github.com/reqlez/ErgoMiningPool/issues"
     },
     "license": "GPL-2.0",
-    "author": "Matthew Little",
+    "author": "Boris Polujin",
     "contributors": [
-        "vekexasia",
-        "TheSeven"
+        "xxx",
+        "yyy"
     ],
     "main": "init.js",
     "bin": {
@@ -28,10 +25,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/zone117x/node-open-mining-portal.git"
+        "url": "https://github.com/reqlez/ErgoMiningPool.git"
     },
     "dependencies": {
-        "stratum-pool": "git://github.com/zone117x/node-stratum-pool.git",
+        "stratum-pool": "git://github.com/reqlez/ErgoStratumServer.git",
         "dateformat": "1.0.12",
         "node-json-minify": "*",
         "redis": "0.12.1",
